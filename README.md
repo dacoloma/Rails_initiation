@@ -27,7 +27,7 @@ On retrouve cette structure dans chaque application Rails, dans un dossier app/,
 </p>
 
 Grossièrement:
-- le Model est le fichier qui va permettre d'aller récupérer les bonnes données dans la BDD
+- le Model est le fichier qui va permettre d'aller récupérer des données de la BDD
 - le View contient le code HTML, c'est la partie qui s'occupera de l'interface Homme/Machine
 - le Controller contient le code logique et fait la passerelle entre ces 2 fichiers et l'utilisateur
 
