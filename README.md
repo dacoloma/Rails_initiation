@@ -44,15 +44,19 @@ Pour chaque action du Controller il existera donc un fichier View qui contiendra
 
 ## Les routes
 Les routes d'un site sont représenter dans l'URL avec des '/' comme pour les chemin en terminal.
+
 Ex : J'ai crée www.mon-site.fr et je dispose de 3 links : Accueil, Historique, Contact.
+
 Si je tape dans la barre d'adresse de mon navigateur www.mon-site.fr/accueil, cela me renverra vers la page Accueil (en supposant que j'ai crée un fichier HTML correspondant).
 
 Le principe des routes pour Rails consiste à rediriger un utilisateur vers l'action correspondante dans le Controller (puis ensuite refaire le parcours MVC)
 ## Bases de Données
 C'est un ensemble de données organisé autour d'un thème, activité, etc.
+
 Ex: Amazon contient une énorme BDD qui contient les infos de chaque utilisateurs (noms, prénoms, ville, moyen de paiement, etc.), les infos des articles à vendre (nom, prix, descriptif, etc.), etc.
 ## GET / POST
 GET : va aller appeler la méthode du Controller lié à l'URL rentré par l'utilisateur.
+
 Ex: l'utilisateur tape dans son navigateur monsite.com/welcome  => il sera renvoyé vers la méthode index situé dans le Controller appelé 'welcome'
 ```ruby
 Rails.application.routes.draw do
