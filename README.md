@@ -12,7 +12,19 @@ Description des concepts essentiels pour Ruby on Rails
 * [CRUD](https://github.com/dacoloma/Rails_initiation#crud)
 
 ## Site statique / Site dynamique
+Lorsqu'un site est défini comme étant statique, cela signifie que le lien sur lequel on se trouve nous renverra toujours les mêmes données (ex: http://motherfuckingwebsite.com/). L'affichage renvoyée sera toujours identique, quelque soit le nombre de visites.
+
+Pour un site dynamique, l'URL d'une page peut envoyer un affichage différent selon l'internaute. (ex: mon fil d'actualités Facebook et celui de mon voisin). Pour notre exemple, l'affichage sera différent après quelques rafraichissement de la page car de nouvelles actualités apparaissent au cours du temps.
+
+ATTENTION : si vous pensez qu'un site qui contient des animations (GIF, vidéos, ou musiques) est forcément un site dynamique, VOUS VOUS TROMPEZ. Un site statique peut très bien contenir des animations, mais elles resteront les mêmes, peu importe votre nombre de fois que vous visitez la page.
 ## Model View Controller (MVC)
+L'architecture MVC sert à organiser les fichiers de votre application en 3 fichiers. Le but de cette architecture est de rendre plus lisible votre code au lieu d'avoir un seul fichier qui regroupe toutes les fonctionnalités dans le code où il est facile de s'y perdre.
+
+### Controller
+
+### Model
+
+### View
 ## Les routes
 ## Bases de Données
 ## GET / POST
