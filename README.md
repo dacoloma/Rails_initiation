@@ -18,7 +18,9 @@ Pour un site dynamique, l'URL d'une page peut envoyer un affichage différent se
 
 ATTENTION : si vous pensez qu'un site qui contient des animations (GIF, vidéos, ou musiques) est forcément un site dynamique, VOUS VOUS TROMPEZ. Un site statique peut très bien contenir des animations, mais elles resteront les mêmes, peu importe votre nombre de fois que vous visitez la page.
 ## Model View Controller (MVC)
-L'architecture MVC sert à organiser les fichiers de votre application en 3 fichiers. Le but de cette architecture est de rendre plus lisible votre code au lieu d'avoir un seul fichier qui regroupe toutes les fonctionnalités dans le code où il est facile de s'y perdre.
+L'architecture MVC sert à structure votre code sous 3 fichiers. Le but de cette architecture est de rendre plus lisible votre code au lieu d'avoir un seul fichier où il est facile de s'y perdre.
+![GitHub Logo](/images/mvc.png)
+
 
 ### Controller
 
