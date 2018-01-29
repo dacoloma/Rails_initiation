@@ -1,4 +1,4 @@
-# BACK-END
+# BASICS
 Description des concepts essentiels pour Ruby on Rails
 
 
