@@ -2,20 +2,21 @@
 Description des concepts essentiels pour Ruby on Rails
 
 
-La différence entre un site statique et un site dynamique
-Le MVC
+Site statique / Site dynamique
+Model View Controller (MVC)
 Les routes
-Les Bases de Données
+Bases de Données
 GET / POST
-Le concept de migration
+Migration
 Les relations entre les models des BDD
-Les fonctions du CRUD
+CRUD
   
-## La différence entre un site statique et un site dynamique
-## Le MVC
+## Site statique / Site dynamique
+## Model View Controller (MVC)
 ## Les routes
-## Les Bases de Données
+## Bases de Données
 ## GET / POST
-## Le concept de migration
+## Migration
 ## Les relations entre les models des BDD
-## Les fonctions du CRUD
+## CRUD
+
