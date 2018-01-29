@@ -20,8 +20,9 @@ ATTENTION : si vous pensez qu'un site qui contient des animations (GIF, vidéos,
 ## Model View Controller (MVC)
 L'architecture MVC sert à structure votre code sous 3 fichiers. Le but de cette architecture est de rendre plus lisible votre code au lieu d'avoir un seul fichier où il est facile de s'y perdre.
 
-![GitHub Logo](/images/mvc.png)
-
+<p align="center">
+  <img src="/images/mvc.png">
+</p>
 
 ### Controller
 
