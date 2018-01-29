@@ -1,4 +1,4 @@
-# BASICS
+# BASICS FOR RUBY ON RAILS
 Description des concepts essentiels pour Ruby on Rails
 
 
@@ -62,8 +62,21 @@ end
 POST : sert à soumettre un formulaire. Par exemple, si on a site qui affiche la liste de toutes les bières dans le monde. On souhaiterait ajouter une nouvelle marque de bière. On passera donc par la méthode POST qui va renvoyer vers une méthode create dans le Controller.
 
 ## Migration
+La migration est une classe qui permet de créer une table de BDD, de la modifier ou de la supprimer.
+```
+$ rails g migration CreateTestTable title:string content:text
+```
+Dès la création du fichier de migration, le site est devenu inaccessible et vous renverra une erreur pour dire qu'une migration est en attente. Il est nécessaire d'effectuer une mise à jour de la BDD avant de pouvoir rentre le site opérationnel.
+```
+$ rails db:migrate
+```
+Si une mise à jour a été faite mais que vous désirez revenir en arrière, il suffit de taper cette commande :
+```
+$ rails db:rollback
+```
 
 ## Les relations entre les models des BDD
+
 
 ## CRUD
 Acronyme informatique anglais qui correspond à 4 fonctions nécessaires pour gérer une base de données  :
