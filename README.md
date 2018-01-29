@@ -82,7 +82,9 @@ $ rails db:rollback
 ## Les relations entre les models des BDD
 Un modèle est un ensemble de données qui définit un objet (comme en POO, on utilise des attributs pour définir une instance). 
 Plusieurs modèles peuvent être liées entre elles. 
+
 Ex: Un article peut être rédigé par plusieurs utilisateurs et un utilisateur peut rédiger plusieurs articles. Ces relations sont définies par les ID. 
+
 Chaque objet (chaque rangée de nos tables de données) comporte un ID unique. Pour lier des objets appartenant à des modèles différents, il faut spécifier les ID auxquels les objets sont reliés. 
 
 ## CRUD
